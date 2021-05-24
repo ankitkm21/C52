@@ -1,0 +1,70 @@
+h1 {
+  color: white;
+  text-align: center;
+}
+
+body {
+  background-image: url(icons/kl.jpg);
+}
+
+hr {
+  height: 2px;
+  border-width: 0;
+  color: gray;
+  background-color: gray;
+}
+
+.game {
+  position: relative;
+}
+.game p {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+}
+
+.game:hover p {
+  opacity: 1;
+}
+.game:hover img {
+  opacity: 0.2;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+}
+.menu {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.allgames {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+}
+
+h2,
+p {
+  text-align: center;
+}
+
+a {
+  color: white;
+}
+
+h2 {
+  color: white;
+}
+p {
+  color: white;
+}
